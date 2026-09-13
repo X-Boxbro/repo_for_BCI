@@ -3,3 +3,12 @@
 
 # Python virtual environment
 .venv/
+
+# Scaffolding folders (local-only, not part of the project)
+# `docs/` only holds a draft of the notes that now live in README.zh-CN.md,
+# and `.github/` only holds an empty placeholder (no Actions / templates yet).
+# NOTE: if you ever add a GitHub Actions workflow or an issue/PR template under
+#       `.github/`, delete the `.github/` line below (or use `git add -f <file>`).
+.github/
+docs/
+
